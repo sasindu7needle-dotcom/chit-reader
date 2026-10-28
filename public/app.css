@@ -18,3 +18,9 @@ body.review-dialog-open{overflow:hidden}
 @media(max-width:850px){.review-dialog .review-workspace{grid-template-columns:1fr}.review-dialog .viewer{position:relative}.review-dialog .image-stage{height:40dvh;min-height:240px}.review-dialog-body{padding:12px}.review-dialog-header{padding:16px}}
 
 .drive-upload-card{margin-bottom:24px}.drive-import-form{display:flex;flex-direction:column;align-items:flex-start;gap:12px;padding:0 24px 24px}.drive-import-form label{font-weight:600}.drive-import-form input{width:100%;padding:12px;border:1px solid var(--border);border-radius:7px;background:#fff;color:var(--ink);font:inherit}.drive-import-form p{max-width:760px}.drive-import-row{padding:18px 24px;border-top:1px solid var(--border)}.drive-import-row p{margin:6px 0}.drive-import-row form{margin-top:10px}
+
+/* Scan frame and layered document identity. */
+.brand{display:flex;align-items:center;justify-content:flex-start;width:fit-content;padding:0 17px;line-height:1}.brand .brand-mark{display:block;width:44px;height:44px;flex:0 0 44px;transform:none}.login-card .brand{padding:0}
+.sidebar > .brand{align-self:center;justify-content:center;padding:0}
+
+.sidebar > .brand + .nav-label{margin-top:32px}
